@@ -1,0 +1,161 @@
+===> What is cloud computing?
+- Dedicated server
+    - One physical machine Dedicated to a single business. 
+    - Runs a single we-app/ site.
+
+- Virtual private server
+    - One physical machine Dedicated to a single business. 
+    - The physical machine is Virtualized into sub-machines.
+    - Runs multiple web apps
+
+- Shared hosting 
+    - One physical machine shard by multiple business.     
+    - Relies on most tenants under-utilizing their resources.
+
+- cloud hosting
+    - Multiple physical machines that act as one system.
+    - The system is abstracted into multiple cloud services
+
+
+===> Common cloud services
+- Compute : Imagine having a virtual computer that can run application, programs and code.
+- Storage : Imagine having a virtual hard-drive that can store files.
+- Networking : Imagine having the virtual network being able to define internet connections or network isolations.
+- Databases : Imagine a virtual Database or storing reporting data or a Database for general purpose web- application.
+
+
+===> Benifits of cloud computing
+- Cost effective
+- Global
+- Secure
+- Reliable
+- Scalable
+- Elastic
+- Current
+
+
+===> Types of cloud computing
+
+- SaaS : software as a services
+    - A product that is run and managed by the service provider.
+
+- PaaS : Platform as a service
+    - Focus on the deployement and management of your apps.
+
+- IaaS : Infrastructure as a service
+    - The basic building blocks of cloudIT.    
+
+
+===> Capital expenditure (CAPEX)
+    - Spending money upfront on physical Infrastructure.
+    - Server Cost
+    - Storage Cost
+    - network Cost
+    - Backup and archieve Cost
+    - Disaster Recovery Cost
+    - Datacenter Cost
+
+
+===> Operational expenditure (OPEX)
+    - The costs associated with an on- premises datacenter that has shifted the cost to the service provider.
+      The customer only has to be concerned with non- physical costs.
+    - Leasing software and customizing features
+    - Training employees in cloud services
+    - Paying for cloud support
+    - Billing based on cloud metrics
+        - Compute usage 
+        - Storage usage
+
+
+===> cloud architecture terminologies
+    - Availability: Your ability to ensure a service remains available
+    - Scalability : Your ability to grow rapidly or unimpeded
+    - Elasticity : Your ability to shrink and grow to meet the demand
+    - Fault tolerance : Your ability to recover from a failure.
+    - Disaster Recovery : Your ability to recover from a failure            
+
+
+===> Computing services 
+    - Azure virtual machines: Windows or linux virtual machines. The most common type of compute.
+      you can choose your OS, Memory, CPU , Storage
+
+    - Azure container instances: Docker as a service. Run containerized apps on Azure without procisioning servers or VMs.
+
+    - Azure Kubernetes : Kubernetes as a service. Easy to deploy, manage and scale containerized applications.
+
+    - Azure Service Fabric: Tier 1 Enterprise containers as a service
+      Distributed systems platform. Runs in Azure or on- premises.
+      Easy to package, deploy and manage scalable and Reliable microservices
+
+    - Azure functions: Event driven, serverless compute(functions) run code without provisioning or managing servers.
+
+    - Azure batch: Plans, schedules and executes your batch computer workloads across running 100+ jobs in parallel.
+
+
+===> Storage services: 
+    - Azure blob storage: 
+        Object serverless storage: Store very large files and large amounts of unstructured files.
+    
+    - Azure disk storage: A virtual volume. Choose SSD or HDD, encryption by default.
+
+    - Azure file storage: A shared volumes that you can access and manage like file server.
+
+    - Azure queue storage : 
+        Message queues: A data store for queuing and reliably delivering messages between applications.
+
+    - Azure table storage: 
+        Wide column NoSQL Database : A NoSQL store that hosts unstructured data independently of any schema.
+
+    - Azure data box: A rugged briefcase computer and storage designed to move terabytes or petabytes of data.
+
+    - Azure archieve storage: Long term storage for when you need to hold onto files for years on the cheapest storage options.
+
+    - Azure data lake storage : A centralized repository that allos you to store all your structured and unstructured data at any scale.
+
+
+===> Cloud native networking services 
+    -Azure DNS: provide ultra- fast DNS responsess and ultra high domain Availability.
+
+    - Azure Virtual Network (vNET) : a logical isolated section of the azure network for customers to launch azure resources within.
+
+    - Azure load balancer: OSI level 4 (Transport) Load balancer
+
+    - Azure application gateway: OSI level 7 (HTTP) load balancer, can apply a web application firewall
+
+    - Network security groups : A virtual firewall at the subnet level
+
+
+===>  Big Data and analytics serives 
+    - A term used to describe massive volumes of structured/ unstructured data that is so large it is difficult to move and process using traditional database and software techniques.
+
+    - Azure Synapse Analytics : Enterprise data warehousing and big data analytics.
+
+    - HDInsight: Run open source analytics software such as Hadoop, Kafka and Spark.
+
+    - Azure Databrics : An apache Spark- based analytics platform optimized for the microsoft azure cloud services platform.
+      Third party databricks cloud services supported withing azure 
+
+    - Data lake analytics: An on demand analytics job service that simplifies big data.
+
+
+===> Serverless service
+    - When the underlying server, Infrastructure and OS is taken care of by the cloud service provider (CSP) It will generally be highly available, scalable and cost effective.
+
+    - Event driven scale: A serverless function can be triggered or trigger other events allowing you to compose complex applications and its just scales.
+
+    - Abstraction of servers: Servers are abstracted away. your code is described as functions. These functions can be running on different compute instances.
+
+    - Micro- billing : Serverless compute could run for a fraction of a second. Billing into micro- seconds will save you money.
+
+
+===> Azure security - complaince programs
+    - National Institute of Standard and Technology (NIST) cybersecurity framework(CSF)
+        - Voluntary framework that consists of standards, guidelines and best practices to manage cybersecurity.
+
+    - UK GOvernment G-Cloud: Cloud computing certification for services used by the GOvernment entities in the UK.
+
+    - Federal INformation Processing Standard (FIPS)- 140-2
+        - US and canadian GOvernment standard that specifies the security requirements for the cryptographic modules that modules that protect sensitive INformation.
+
+
+        
